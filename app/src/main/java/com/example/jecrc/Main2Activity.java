@@ -6,7 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class Main2Activity extends AppCompatActivity {
-    private static int SPLASH_TIME_OUT = 4000;
+    //That's oaky if i do splash time as 5 sec
+	private static int SPLASH_TIME_OUT = 5000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
